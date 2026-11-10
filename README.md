@@ -43,3 +43,6 @@ As the game goes on, the pregame edge fades in proportion to the time remaining,
 The model was backtested on the **2025–26 season**, comparing halftime predictions to final results. Games are replayed in date order, and each prediction only uses team records from **before** that game to avoid data leakage.
 
 **Finding:** the model is overconfident at halftime. Teams given about an **85%** chance actually won about **77%** of the time.
+
+<img width="1700" height="522" alt="Screenshot 2026-11-10 at 12 11 59 PM" src="https://github.com/user-attachments/assets/17b8f7a6-99a5-417a-b690-0fc4c9354bec" />
+
