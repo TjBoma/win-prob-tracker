@@ -1,0 +1,30 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #0f1115; color: #e8e8ea; }
+
+.app { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
+h1 { margin: 0 0 12px; font-size: 1.6rem; }
+
+.controls { display: flex; gap: 8px; flex-wrap: wrap; }
+.controls input, .controls select {
+  background: #1a1d24; color: inherit; border: 1px solid #2c313c;
+  border-radius: 6px; padding: 6px 10px; font: inherit;
+}
+.updated { color: #8b909c; font-size: 0.85rem; margin: 8px 0 0; }
+
+.grid {
+  display: grid; gap: 12px; margin-top: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+.card { background: #1a1d24; border: 1px solid #2c313c; border-radius: 10px; padding: 14px; }
+.status { font-size: 0.8rem; color: #8b909c; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.04em; }
+.status.live { color: #ff5a5a; font-weight: 600; }
+.row { display: flex; justify-content: space-between; font-size: 1.1rem; padding: 4px 0; color: #b8bcc6; }
+.row.winner { color: #fff; font-weight: 700; }
+.error { color: #ff5a5a; }
+.rec { color: #6b7080; font-size: 0.75rem; font-weight: 400; }
+.wp { margin-top: 12px; }
+.wp-bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: #2c313c; }
+.wp-away { background: #5b8def; transition: width 0.6s ease; }
+.wp-home { background: #f2a33a; transition: width 0.6s ease; }
+.wp-labels { display: flex; justify-content: space-between; font-size: 0.75rem; color: #8b909c; margin-top: 4px; }
+.rec { color: #6b7080; font-size: 0.75rem; font-weight: 400; }
